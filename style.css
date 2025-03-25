@@ -1,5 +1,5 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,15 +17,28 @@ body {
   overflow: scroll;
 }
 
+.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 .panel {
   width: 1600px;
   height: 1000px;
   border: 1px solid #4b5769;
+  border-radius: 15px;
   overflow: hidden;
 }
 
 .panel-left {
+  background-color: rgb(116, 72, 72);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4b5769;
 }
 
 .panel-right {
+  background-image: linear-gradient(
+    180deg,
+    rgba(55, 64, 76, 1) 0%,
+    rgba(21, 26, 32, 1) 100%
+  );
 }
