@@ -1,0 +1,31 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 1600px;
+  background-color: #181d23;
+  overflow: scroll;
+}
+
+.panel {
+  width: 1600px;
+  height: 1000px;
+  border: 1px solid #4b5769;
+  overflow: hidden;
+}
+
+.panel-left {
+}
+
+.panel-right {
+}
