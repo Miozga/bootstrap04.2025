@@ -116,4 +116,47 @@ body {
   font-weight: bold;
 }
 .main-stat-box {
+  height: 140px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.main-stat-box:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+.main-stat-box h3 {
+  margin-bottom: 1em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-stat-box p {
+  font-size: 1.2rem;
+}
+
+.main-table h3 {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.main-table thead .main-table .dropdown-item {
+  font-size: 1.4rem;
+}
+
+.main-table tbody {
+  font-size: 1.2rem;
+}
+.main-table .btn {
+  font-size: 1.6rem;
+}
+.page-link {
+  padding: 0.5em 1em;
+  font-size: 1.4rem;
+  background-color: transparent;
+  color: #fff;
+}
+
+.page-link:hover {
+  color: #ddd;
+  background-color: rgba(255, 255, 255, 0.08);
 }
