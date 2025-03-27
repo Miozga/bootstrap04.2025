@@ -191,3 +191,14 @@ aside h3 {
 .users-gender p {
   font-size: 2rem;
 }
+
+.monthly-stats .form-select,
+.monthly-stats option {
+  font-size: 1.6rem;
+}
+.monthly-stats .info {
+  font-size: 1.8rem;
+}
+.monthly-stats .number {
+  font-size: 1.4rem;
+}
