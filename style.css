@@ -207,8 +207,11 @@ aside h3 {
   font-size: 1.4rem;
 }
 
+.active-users .card-img {
+  overflow: hidden;
+}
 .posts h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -220,4 +223,27 @@ aside h3 {
 }
 .featured-post .card-body {
   font-size: 1.4rem;
+}
+
+.active-users img {
+  height: 180px;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.active-users img:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.active-users .card-body,
+.active-users .btn-users btn {
+  font-size: 1.5rem;
+}
+
+.find-post,
+.find-post input,
+.find-post .btn,
+.find-post .dropdown-item {
+  font-size: 1.6rem;
 }
